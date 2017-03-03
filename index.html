@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Pomodoro Timer</title>
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto+Slab" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <audio id="sessionOver" src="audio/Record-001.mp3" type="audio/mpeg"></audio>
+    <audio id="breakOver" src="audio/Record-002.mp3" type="audio/mpeg"></audio>
+</head>
+<body>
+	<br> <br> <br> <br> <br> <br>
+	<div class="text-center">
+		<h1>A simple Pomodoro timer to make you more productive</h1>
+		<div id="timeDiv">
+			<h2 id="sessionTitle">Your Pomodoro</h2>
+			<a href="#" class="btn btn-primary" id="minus5Session">-</a>
+			<h3 id="timeType"></h3>
+			<h3 id="num">25</h3>
+			<a href="#" class="btn btn-primary" id="plus5Session">+</a>
+			<a href="#" class="btn btn-primary" id="reset">Reset</a>
+		</div>
+		<div id="breakDiv">
+			<h2 id="breakTitle">Your break time</h2>
+			<a href="#" class="btn btn-primary" id="minus5Break">-</a>
+			<h3 id="breakNum">5</h3>
+			<a href="#" class="btn btn-primary" id="plus5Break">+</a>
+			</div>
+		<a href="#" id="start" class="btn btn-primary">Let's go</a>
+	</div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
